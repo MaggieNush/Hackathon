@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Margaret Mungai | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about" class="about">About Me</a></li>
+          <li><a href="#experience" class="experience-button">Education</a></li>
+          <li><a href="#interests" class="interests-button">Interests</a></li>
+          <li><a href="#projects" class="projects-button">Projects</a></li>
+          <li><a href="#contact" class="contact-button">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <div class="hero-content">
+        <h1>Margaret Mungai</h1>
+        <h3>Front-End Developer</h3>
+        <img src="assets/typing.gif" alt="a dog typing" />
+        <p>
+          Bringing ideas to life through intuitive, engaging web experiences. I
+          build the interfaces you interact with.
+        </p>
+        <button class="social-button">Explore More</button>
+        <a href="#about" class="aboutMe"></a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-content">
+        <div class="about-illustration">
+          <img src="/assets/aboutMe.png" alt="Illustration of a programmer" />
+        </div>
+        <div class="about-text">
+          <h2>📝 Who Am I?</h2>
+          <p>
+            Hi, I’m Margaret, a front-end developer passionate about crafting
+            seamless user experiences and innovative designs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="education-content">
+        <h2>Educational Background</h2>
+        <p>
+          Currently honing my skills in Software Engineering at ALX & Power
+          Learning Project Africa.
+        </p>
+        <p>I want to learn more</p>
+        <a
+          href="https://drive.google.com/uc?export=download&id=1Njwcw9StQbG7iGgDroWllQPT6Prt2NQI"
+          download
+        >
+          <button class="education-button">Download My CV</button>
+        </a>
+      </div>
+    </section>
+
+    <section id="interests">
+      <div class="interests-container">
+        <div class="interests-text">
+          <h2>Interests</h2>
+          <p>Think of these as the fuel that powers my creative engine.</p>
+        </div>
+
+        <div class="cards-container">
+          <div class="web-card">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/3573/3573187.png"
+              alt="Illustration of a code tag"
+            />
+            <h3>Web Development</h3>
+            <p>
+              I love bringing ideas to life online. Think of it like building a
+              house, but instead of bricks, I use code.
+            </p>
+          </div>
+          <div class="tech-card">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/11485/11485929.png"
+              alt="Illustration of a tech icon"
+            />
+            <h3>Tech Innovations</h3>
+            <p>
+              I’m fascinated by the new things tech can do! It’s like being on
+              the front row of a magic show.
+            </p>
+          </div>
+          <div class="creative-card">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/1071/1071510.png"
+              alt="Illustration of a puzzle icon"
+            />
+            <h3>Creative Problem Solving</h3>
+            <p>
+              Problem-solving isn’t just about finding a solution; it’s about
+              finding a creative one.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="projects-container">
+        <div class="projects-text">
+          <h2>Projects</h2>
+          <p>
+            Here are some of my latest projects, each one blending beauty and
+            function to create something truly engaging.
+          </p>
+        </div>
+        <div class="project-freshi">
+          <h3>Fridge Freshi</h3>
+          <img
+            src="assets/Fridge freshi Website.png"
+            alt="Fridge Freshi project screenshot"
+          />
+          <p>
+            A smart meal suggestion app that recommends recipes based on
+            available ingredients.
+          </p>
+        </div>
+        <div class="personal-portfolio">
+          <h3>Portfolio Website</h3>
+          <img
+            src="assets/Portfolio Website.png"
+            alt="Portfolio project screenshot"
+          />
+          <p>
+            This was a personal website outlining my skills, interests and how
+            to reach.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-container">
+        <div class="contact-text">
+          <h2>Get In Touch</h2>
+          <p>
+            Got a project? Let’s make it fun! You dream it, I’ll code
+            it—together we'll make something incredible.
+          </p>
+        </div>
+        <div class="contact-form">
+          <h3>Contact Me</h3>
+          <p>Fill out the form below and let’s chat!</p>
+          <form action="/thank-you.html" method="get">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required /><br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required /><br />
+            <label for="text">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+        <button class="awesome-button">Let's Create Something Awesome</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-button">
+        <a
+          href="https://www.linkedin.com/in/margaret-nungari/"
+          target="_blank"
+          class="linkedin-button"
+        >
+          <img
+            src="assets/linkedin.png"
+            alt="LinkedIn"
+            style="width: 24px; height: 24px"
+          />
+        </a>
+        <a
+          href="https://github.com/MaggieNush/"
+          target="_blank"
+          class="github-button"
+        >
+          <img
+            src="assets/github.png"
+            alt="GitHub"
+            style="width: 24px; height: 24px"
+          />
+        </a>
+      </div>
+      <p>Made with HTML, a cup of coffee, and a lot of CSS debugging.</p>
+    </footer>
+  </body>
+</html>
